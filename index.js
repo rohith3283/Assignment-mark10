@@ -3,7 +3,7 @@ const cashGiven = document.querySelector("#cah-given");
 const checkButton = document.querySelector("#check-button");
 const message = document.querySelector("#error-message");
 
-const noOfNotes = document.querySelector(".no-of-note");
+const noOfNotes = document.querySelectorAll(".no-of-note");
 
 const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 
